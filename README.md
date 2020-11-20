@@ -1,22 +1,10 @@
-#                        _    _            ___  
-#    ()o                | |o | |o     /   /   \ 
-#    /\    _  _  _    _ | |  | |     |      __/|
-#   /  \  / |/ |/ | |/ \|/ | |/ |    ||  |_   \|
-#  /(__/_/  |  |  |_/__/|__/_/__/_/  | \/ \___/|
-#                  /|        |\       \       / 
-#                  \|        |/                
-# 
-# 
-#     _ _  _  _    _ _  _  _     _ |
-# |_|_\(_|(_|(/_  | | |(_|| ||_|(_||
-         _|                       
+# Simplifi v3
+# `Usage Manual`                   
 
 
 Simplifi is a task manager for automatically creating daily tasklists.
 
-                             
-#  -/-  _,_          ,    _    
-# _/_ _(_/    _(_/__/_)__(/_ (to use)
+# To Use/)
  
 STEP 1 : Edit .XLSX file to edit task list.
 
@@ -41,13 +29,10 @@ Set your own wallpaper links for day, evening and night.
 Set the name of the XLSX file.
 Set topics you would be interested in, for daily news reports.
 
-Once configuring, run 'app.py'.
+Once configuring, run `app.py`.
         
-#   _,_      -/-  ,_        -/-
-# _(_/ _(_/__/_  _/_)__(_/__/_  (output)
-#                /             
-#               /              
-#
+# Output/)
+
  - A report of total # of jobs
  - A report of incomplete jobs
  - A report of complete jobs
@@ -57,17 +42,13 @@ Once configuring, run 'app.py'.
  - The dashboard will have different wallpapers based on the time of the day (morning, evening, night) :-)
  - A customized newspaper everyday, with personalized topics straight from Google News!
 
-#                            _                                                 
-#   ,____,   _,_  __/        //  _   ,       ,_   _   __        .  ,_   _   __/ 
-# _/ / / (__(_/ _(_/(__(_/__(/__(/__/_)_   _/ (__(/__(_/__(_/__/__/ (__(/__(_/(_ (modules required)
-#                                                    _/                         
-#                                                    /)                                                
+# Modules Required/)                                               
 
-Mentioned in 'requirements.txt',
-'pandas>=1.1.0
-GoogleNews>=1.5.0
-jinja>=2.11.2
-six>=1.5
-webbrowser'
+Mentioned in `requirements.txt`,
+`pandas>=1.1.0`
+`GoogleNews>=1.5.0`
+`jinja>=2.11.2`
+`six>=1.5`
+`webbrowser`
 It is not a problem even if these modules are not installed, as the program will try to install it. However it is safe to 
 manually install.
